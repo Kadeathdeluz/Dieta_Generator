@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dieta Generator</string>
+    <string name="generate">Generate</string>
+    <string name="empty">...</string>
+
+    <string name="monday">Lunes.</string>
+    <string name="tuesday">Martes.</string>
+    <string name="wednesday">Miércoles.</string>
+    <string name="thursday">Jueves.</string>
+    <string name="friday">Viernes.</string>
+    <string name="saturday">Sábado.</string>
+    <string name="sunday">Domingo.</string>
+    <string name="day_label">Día:</string>
+    <string name="first_label">Primero:</string>
+    <string name="second_label">Segundo:</string>
+    <string name="dinner_label">Cena:</string>
+    <string name="sample_text_long">Ejemplo de texto un poco más largo de lo normal, y que puede no caber en una línea.</string>
+    <string name="sample_text_dinner">Ejemplo de cena.</string>
+    <string name="sample_text_short">Ejemplo de texto corto.</string>
+
+</resources>

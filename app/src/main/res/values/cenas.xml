@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LUNES -->
+    <!-- CENAS -->
+    <string name="lunes_uno_cena">Ensalada mixta con pollo a la brasa.</string>
+    <string name="lunes_dos_cena">Gambas al ajillo con champiñones.</string>
+    <string name="lunes_tres_cena">Ensalada con pechuga de pavo y vinagreta de orégano.</string>
+    <string name="lunes_cuatro_cena">Lenguado a la crema de calabacín.</string>
+    <!-- MARTES -->
+    <!-- CENAS -->
+    <string name="martes_uno_cena">Lubina con cebollas, miel y mostaza.</string>
+    <string name="martes_dos_cena">Ternera salteada con verduras.</string>
+    <string name="martes_tres_cena">Lenguado con champiñones y crema de leche.</string>
+    <string name="martes_cuatro_cena">Trocitos de pollo a la francesa.</string>
+    <!-- MIÉRCOLES -->
+    <!-- CENAS -->
+    <string name="miercoles_uno_cena">Tortilla de mix de verduras.</string>
+    <string name="miercoles_dos_cena">Merluza al pimentón con verduritas.</string>
+    <string name="miercoles_tres_cena">Tortilla de calabacín.</string>
+    <string name="miercoles_cuatro_cena">Gambas al ajillo con ensalada.</string>
+    <!-- JUEVES -->
+    <!-- CENAS -->
+    <string name="jueves_uno_cena">Lenguado al allioli con verduritas.</string>
+    <string name="jueves_dos_cena">Huevos revueltos mexicanos.</string>
+    <string name="jueves_tres_cena">Gambas al estilo criollo.</string>
+    <string name="jueves_cuatro_cena">Tortilla sabrosa de tomates.</string>
+
+    <!-- VIERNES -->
+    <!-- CENAS -->
+    <string name="viernes_uno_cena">Sándwich vegetal con jamón y queso.</string>
+    <string name="viernes_dos_cena">Sepia a la plancha con limón y ensalada.</string>
+    <string name="viernes_tres_cena">Ensalada 6 delicias.</string>
+    <string name="viernes_cuatro_cena">Merluza con queso y ensalada fácil.</string>
+
+    <!-- SÁBADO -->
+    <!-- CENAS -->
+    <string name="sabado_uno_cena">Pechuga de pavo al curry con piña.</string>
+    <string name="sabado_dos_cena">Ternera con champiñones.</string>
+    <string name="sabado_tres_cena">Salto de verduras y pollo.</string>
+    <string name="sabado_cuatro_cena">Ternera al estilo chino.</string>
+
+    <!-- DOMINGO -->
+    <!-- CENAS -->
+    <string name="domingo_uno_cena">Ternera a la pimienta con ensalada mixta.</string>
+    <string name="domingo_dos_cena">Ensalada mixta con queso.</string>
+    <string name="domingo_tres_cena">Ternera al ajillo con verduritas salteadas.</string>
+    <string name="domingo_cuatro_cena">Sándwich de jamón y queso especial.</string>
+
+</resources>

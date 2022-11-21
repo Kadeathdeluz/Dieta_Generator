@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LUNES -->
+    <!-- COMIDAS -->
+    <string name="lunes_uno_pr">Macarrones con atún y verduritas.</string>
+    <string name="lunes_dos_pr">Risotto de la huerta.</string>
+    <string name="lunes_tres_pr">Espaguetis con verduritas.</string>
+    <string name="lunes_cuatro_pr">Paella superrápida de pollo.</string>
+    <!-- MARTES -->
+    <!-- COMIDAS -->
+    <string name="martes_uno_pr">Lentejas guisadas con verduritas.</string>
+    <string name="martes_dos_pr"> Garbanzos a la normanda.</string>
+    <string name="martes_tres_pr">Lentejas guisadas con lomo adobado.</string>
+    <string name="martes_cuatro_pr">Alubias guisadas con verduritas.</string>
+    <!-- MIÉRCOLES -->
+    <!-- COMIDAS -->
+    <string name="miercoles_uno_pr">Patatas guisadas al estilo normando.</string>
+    <string name="miercoles_dos_pr">Macarrones con salsa de tomate.</string>
+    <string name="miercoles_tres_pr">Puré de verduras y queso.</string>
+    <string name="miercoles_cuatro_pr">Canelones tradicionales.</string>
+
+    <!-- JUEVES -->
+    <!-- COMIDAS -->
+    <string name="jueves_uno_pr">Sopa de la huerta.</string>
+    <string name="jueves_dos_pr">Calderillo de patatas y salmón.</string>
+    <string name="jueves_tres_pr">Arroz con pollo y pimientitos.</string>
+    <string name="jueves_cuatro_pr">Puré de calabacín con queso.</string>
+
+    <!-- VIERNES -->
+    <!-- COMIDAS -->
+    <string name="viernes_uno_pr">Alubias guisadas con gambas.</string>
+    <string name="viernes_dos_pr">Alubias superrápidas guisadas al estilo tradicional.</string>
+    <string name="viernes_tres_pr">Guisantes al pimentón.</string>
+    <string name="viernes_cuatro_pr">Garbanzos guisados al estilo castellano.</string>
+
+    <!-- SÁBADO -->
+    <!-- COMIDAS -->
+    <string name="sabado_uno_pr">Espaguetis a la napolitana.</string>
+    <string name="sabado_dos_pr">Canelones rellenos.</string>
+    <string name="sabado_tres_pr">Macarrones a la boloñesa de atún.</string>
+    <string name="sabado_cuatro_pr">Sopa jardinera.</string>
+
+    <!-- DOMINGO -->
+    <!-- COMIDAS -->
+    <string name="domingo_uno_pr">Menestra de verduras con huevo.</string>
+    <string name="domingo_dos_pr">Arroz tres delicias.</string>
+    <string name="domingo_tres_pr">Patatas ricas.</string>
+    <string name="domingo_cuatro_pr">Risotto de verduritas y atún.</string>
+
+
+</resources>

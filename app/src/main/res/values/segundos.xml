@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LUNES -->
+    <!-- COMIDAS -->
+    <string name="lunes_dos_seg">Pechuga de pollo con ensalada de cherries.</string>
+    <string name="lunes_tres_seg">Salmón al ajillo con mayonesa y espárragos.</string>
+    <!-- MARTES -->
+    <!-- COMIDAS -->
+    <string name="martes_uno_seg">Ternera a la plancha con ensalada de tomates.</string>
+    <string name="martes_cuatro_seg">Salmón al vino.</string>
+
+    <!-- MIÉRCOLES -->
+    <!-- COMIDAS -->
+    <string name="miercoles_dos_seg">Lomo de cerdo adobado con espárragos.</string>
+    <string name="miercoles_tres_seg">Emperador a la naranja.</string>
+
+    <!-- JUEVES -->
+    <!-- COMIDAS -->
+    <string name="jueves_uno_seg">Pollo a las finas hierbas.</string>
+    <string name="jueves_cuatro_seg">Sardinas al tomillo con pimientos.</string>
+
+    <!-- VIERNES -->
+    <!-- COMIDAS -->
+    <string name="viernes_dos_seg">Pechuga de pollo a la italiana.</string>
+    <string name="viernes_tres_seg">Merluza a la piña.</string>
+
+    <!-- SÁBADO -->
+    <!-- COMIDAS -->
+    <string name="sabado_uno_seg">Sardinas a la naranja.</string>
+    <string name="sabado_cuatro_seg">Tortilla de pavo.</string>
+
+    <!-- DOMINGO -->
+    <!-- COMIDAS -->
+    <string name="domingo_dos_seg">Pez espada al limón con tomates.</string>
+    <string name="domingo_tres_seg">Huevos rellenos especiales.</string>
+
+</resources>
