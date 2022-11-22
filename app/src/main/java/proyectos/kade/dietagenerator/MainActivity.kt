@@ -12,26 +12,15 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import proyectos.kade.dietagenerator.adapter.ItemAdapter
 import proyectos.kade.dietagenerator.data.DataSource
 import proyectos.kade.dietagenerator.model.Day
+import proyectos.kade.dietagenerator.ui.diet.DietFragment
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var myDataset: List<Day>
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        myDataset = DataSource().loadDiet(false)
-
-        val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
-        recyclerView.adapter = ItemAdapter(this, myDataset)
-
-        recyclerView.setHasFixedSize(true)
-        val fab = findViewById<FloatingActionButton>(R.id.fab_generate)
-        fab.setOnClickListener {
-            myDataset = DataSource().loadDiet(true)
-            recyclerView.adapter = ItemAdapter(this, myDataset)
-        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -50,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     private fun share() {
-        val text = myDataset.textToSend()
+        val text = DietFragment().myDataset.textToSend()
         val sendIntent: Intent = Intent().apply {
             action = Intent.ACTION_SEND
             putExtra(Intent.EXTRA_TEXT, text)

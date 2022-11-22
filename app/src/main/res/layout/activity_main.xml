@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/dieta_fragment"
+        android:name="proyectos.kade.dietagenerator.ui.diet.DietFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintLeft_toLeftOf="parent"
