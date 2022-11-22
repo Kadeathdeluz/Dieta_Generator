@@ -13,7 +13,7 @@ class DataSource {
             else normalDiet()
     }
     private fun normalDiet(): List<Day> {
-        return listOf<Day>(
+        return listOf(
             alea[0].monday,
             alea[0].tuesday,
             alea[0].wednesday,
@@ -25,7 +25,7 @@ class DataSource {
     }
     private fun randomDiet(): List<Day> {
         val size = alea.size
-        return listOf<Day>(
+        return listOf(
             alea[Random.nextInt(0, size)].monday,
             alea[Random.nextInt(0, size)].tuesday,
             alea[Random.nextInt(0, size)].wednesday,
@@ -36,7 +36,7 @@ class DataSource {
         )
     }
     private companion object {
-        val alea = listOf<Diet>(
+        val alea: List<Diet> = listOf(
             Diet(
                 monday = Day(
                     meal = Meal(
