@@ -19,7 +19,7 @@ class DietFragment : Fragment() {
         fun newInstance() = DietFragment()
     }
     lateinit var myDataset: List<Day>
-    /*private lateinit var binding: DietFragmentBinding*/
+
     private lateinit var viewModel: DietViewModel
 
     /*override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
