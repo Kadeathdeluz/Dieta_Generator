@@ -1,47 +1,47 @@
 package proyectos.kade.dietagenerator.ui.diet
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
+import androidx.fragment.app.Fragment
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import proyectos.kade.dietagenerator.R
+import androidx.databinding.DataBindingUtil
 import proyectos.kade.dietagenerator.adapter.ItemAdapter
 import proyectos.kade.dietagenerator.data.DataSource
+import proyectos.kade.dietagenerator.databinding.DietFragmentBinding
 import proyectos.kade.dietagenerator.model.Day
 
 class DietFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = DietFragment()
-    }
-    lateinit var myDataset: List<Day>
+    var myDataset: List<Day>
 
-    private lateinit var viewModel: DietViewModel
+    private var _binding: DietFragmentBinding? = null
+    private val binding get() = _binding!!
 
-    /*override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+    init {
         myDataset = DataSource().loadDiet(false)
-
-        val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
-        recyclerView.adapter = ItemAdapter(this, myDataset)
-
-        recyclerView.setHasFixedSize(true)
-        val fab = findViewById<FloatingActionButton>(R.id.fab_generate)
-        fab.setOnClickListener {
-            myDataset = DataSource().loadDiet(true)
-            recyclerView.adapter = ItemAdapter(this, myDataset)
-        }
-        return inflater.inflate(R.layout.diet_fragment, container, false)
-    }*/
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(DietViewModel::class.java)
-        // TODO: Use the ViewModel
     }
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        _binding = DietFragmentBinding.inflate(inflater,container, false)
+        binding.recyclerView.apply {
+            adapter = ItemAdapter(requireContext(), myDataset)
+            setHasFixedSize(true)
+        }
+        binding.fabGenerate.setOnClickListener {
+            myDataset = DataSource().loadDiet(true)
+            binding.recyclerView.adapter = ItemAdapter(requireContext(), myDataset)
+        }
+        return binding.root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+
 
 }
